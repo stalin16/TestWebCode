@@ -1,0 +1,28 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "JohnDoe",
+        "photo": "https://th.bing.com/th/id/OIG.ey_KYrwhZnirAkSgDhmg",
+        "profilePicture": "https://www.shutterstock.com/image-photo/portrait-smiling-red-haired-millennial-260nw-1194497251.jpg"
+      },
+      {
+        "id": 2,
+        "username": "JaneSmith",
+        "photo": "https://dzz-zapad.hr/assets/admin/pages/media/profile/profile_user.jpg",
+        "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq9YIuon9JLWwWKtXsyFbcqE_FZeEzsxsyKmJfeDG9WA&s"
+      },
+      {
+        "id": 3,
+        "username": "AlexJohnson",
+        "photo": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "profilePicture": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      },
+      {
+        "id":4,
+        "username": "JohnDoe",
+        "photo": "https://thumbs.dreamstime.com/b/smiling-african-american-boy-12753504.jpg",
+        "profilePicture": "https://media.istockphoto.com/id/1087352060/photo/smiling-pre-teen.jpg?s=612x612&w=is&k=20&c=sqR9syfZkuG1ZlBg-F0fxY2PEDAGl25Y47vmgBe5x5Q="
+      }
+    ]
+  }
