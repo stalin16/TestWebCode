@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cmt.css">
-        <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cmt.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <title>Video Comment & Like</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container center__display">
-        <div class="top">
-          <div class="video__container">
-            <form>
-              <div class="heart__icon center__display">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxCqpsKaalwLaLX97ML9to532kxKafzSwh3j_2AyTf4_EHwBLdLlMWztCkjRI7o_DSDu4&usqp=CAU" alt="">
-              </div>
-              <div class="form__info center__display">
-                <input type="text" name="comment" id="comment" placeholder="Add comment ...">
-              </div>
-              <button type="submit" class="submit__btn">
-                Submit
-              </button>
-            </form>
+      <div class="top">
+        <form>
+          <div class="heart__icon center__display">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxCqpsKaalwLaLX97ML9to532kxKafzSwh3j_2AyTf4_EHwBLdLlMWztCkjRI7o_DSDu4&usqp=CAU"
+              alt=""
+            />
           </div>
-        </div>
-      
-        <div class="comments__container center__display">
-        </div>
+          <div class="form__info center__display">
+            <input
+              type="text"
+              name="comment"
+              id="comment"
+              placeholder="Add comment ..."
+            />
+          </div>
+          <button type="submit" class="submit__btn">Submit</button>
+        </form>
       </div>
-      <script src="cmt.js"></script>        
-</body>
+
+      <div class="comments__container center__display"></div>
+    </div>
+    <script src="cmt.js"></script>
+  </body>
 </html>

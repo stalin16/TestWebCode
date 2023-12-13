@@ -9,6 +9,18 @@ submitBtn.addEventListener("click", submitFeedback);
 let feedbackArr = [];
 let positiveFeedback = false;
 
+// Fetch user data from JSON
+fetch("users.json")
+  .then((response) => response.json())
+  .then((data) => {
+    const users = data.users;
+    // Use the users data here
+    console.log(users);
+  })
+  .catch((error) => {
+    console.log("Error fetching user data:", error);
+  });
+
 function submitFeedback(e) {
   e.preventDefault();
 

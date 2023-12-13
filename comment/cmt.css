@@ -17,10 +17,12 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  
 }
 
 .container .top {
+  width: 740px;
+  margin: 0.5rem;
   position: relative;
   border-bottom: 1px solid #eee;
 }
@@ -49,15 +51,15 @@ form {
 .form__info input {
   border: none;
   background: transparent;
-  width: 70%;
-  border-bottom: 1px solid #ccc;
+  width: 90%;
   font-size: 18px;
   margin-bottom: 10px;
   outline: none;
+  margin-left: 8%;
 }
 
 .form__info input::placeholder {
-  color: #ddd;
+  color: gray;
 }
 
 .top .heart__icon {
@@ -67,20 +69,19 @@ form {
 }
 
 .top button {
-  background-color: #48cae4;
-  height: 50%;
   border: none;
-  outline: none;
+  border-radius: 10px;
+  background-color: #1A5DB4;
+  height: 50%;
   color: white;
   transform: translateY(50%);
-  margin-right: 10px;
   cursor: pointer;
 }
 
 /* COMMENTS */
 .comments__container {
   width: 800px;
-  margin-top: 2rem;
+ 
 }
 
 .comment__card {
@@ -88,8 +89,7 @@ form {
   height: 80px;
   display: grid;
   grid-template-columns: 10% auto;
-  margin: 0.5rem;
-  border-bottom: 1px solid #eee;
+  margin-left: 0.5rem;
 }
 
 .comment__card .pic {
@@ -97,13 +97,13 @@ form {
   border-radius: 50%;
   margin: 10%;
   font-size: 25px;
-  color: white;
+  color: #495057;
   text-transform: uppercase;
 }
 
 .comment__info {
   display: flex;
-  justify-content: center;
+  align-items: flex-start;
 }
 
 .comment__info .nickname {
@@ -112,11 +112,12 @@ form {
 }
 .comment__info .des {
   margin-left: 25px;
+  flex-grow: 1; /* Add this line */
 }
 .comment__info .comment {
   margin: 5px 0;
+  word-break: keep-all; /* Add this line */
 }
-
 .comment__info .comment__bottom {
   display: flex;
 }
